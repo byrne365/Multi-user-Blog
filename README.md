@@ -58,14 +58,22 @@ You will need Python 2.7 to use the App Engine SDK, because the Development Serv
 
 ##Installing App Engine on a Mac os x
 
+1. In your browser, browse to [google-app-engine] (https://cloud.google.com/appengine/downloads),
+2. scroll down to `Google App Engine SDK for Python` select the latest download package file for `Linux/Mac OS X/Other Platforms`, in this case `google_appengine_1.9.40.zip`.
+3. Unzip the App Engine SDK file you downloaded `(google_appengine_1.9.40.zip)`, for example:
+unzip `google_appengine_1.9.40.zip`.There is no App Engine installation script that you need to run after unzipping the files.
+4. Add the google_appengine directory to your PATH: `export PATH=$PATH:/path/to/google_appengine/` 
+5. Make sure Python 2.7 is installed on your machine using the following command:
+/usr/bin/env python -V
+The output should look like this: Python 2.7.<number>.
+
 Note: The App Engine SDK is under active development; please keep this in mind as you explore its capabilities. See the Java | Python | Go | PHP SDK Release Notes for information on the most recent changes to the App Engine SDK. If you discover any issues, feel free to notify us via our Issue Tracker.
 By downloading, you agree to be bound by the Terms that govern use of the App Engine SDK.
 
-
+#The Blog App
 
 ## Browsing the web site:
- * Browse http://syf-udacity-cs253.appspot.com/
-(or http://localhost:8080 for local deployment)
+ * Browse `http://blog-myblog.appspot.com/`(or http://localhost:8080 for local deployment)
  * Users should sign up in order to send new posts and comments, Sign Up link exists
 on the top right corner
  * Login / Sign Up links are on the top right corner when user not logged in
