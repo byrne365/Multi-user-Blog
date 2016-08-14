@@ -1,6 +1,6 @@
 # Multi-user-Blog
 
-#Blog Roll
+##Blog Roll
 
 Multi User Blog is a web application which I have created as part of the Udacity, Fullstack Web Developer Nano Degree program. I have called my blog `Blogroll`, the blog allows users to do the following:
 
@@ -19,7 +19,7 @@ Multi User Blog is a web application which I have created as part of the Udacity
 
 * Install `Chrome`
 
-#Installing `Chrome` on Windows:
+##Installing `Chrome` on Windows:
 
 1. Browse over to [Chrome] (https://www.google.com/chrome/browser/desktop/index.html)
 2. Download the installer file.
@@ -30,7 +30,7 @@ Multi User Blog is a web application which I have created as part of the Udacity
    * Windows 8 and 8.1: A welcome dialog appears, click Next to select your default browser.
    * Windows 10: A Chrome window opens once everything is set up. You can then make Chrome your default browser.
 
-#Installing `Chrome` on Mac osx
+##Installing `Chrome` on Mac osx
 
 1. Browse over to [Chrome] (https://www.google.com/chrome/browser/desktop/index.html)
 2. Download the disk image.
@@ -40,7 +40,7 @@ Multi User Blog is a web application which I have created as part of the Udacity
 6. Open Finder.
 7. In the window's sidebar, to the right of Google Chrome, click Eject .
 
-# Installing `Chrome` on Linux
+##Installing `Chrome` on Linux
 
 1. Browse over to [Chrome] (https://www.google.com/chrome/browser/desktop/index.html)
 2. Use the same software that installs programs on your computer to install Chrome. Make sure you have administrative access first.
@@ -49,10 +49,25 @@ Multi User Blog is a web application which I have created as part of the Udacity
 5. Click Install Package.
 6. Google Chrome will add its program information to your software manager so that it can be kept up-to-date.
 
-## In order to run the app site locally, (on your local machine), the user is required to:
+#Browsing the app
+
+Using the `Chrome` browser, (which you installed above) browse to the site on the following address http://blog-myblog.appspot.com/.
+ * Users should `sign up` in order to send `new posts` and `comments`, `Sign Up` link exists on the top right corner
+ * A returning user can use the `Login` link (top right corner) to log in to there account
+ * Once logged in the users user name and `Logout` link can be found in the top right hand corner
+ * A user can post a new blog post by clicking the `New Post` navigation button after they are logged in
+ * A Post can be viewed in detail by clicking on the posts subject
+ * Once a user has clicked on the subject of the post the comments of the posts can be seen
+ * New comments can be added by clicking `Add Comment button` located under each post, the user must be logged in in order to leave a comment.
+ * Posts and Comments can be modified, if they are created by the logged in user.
+ * If the user is authorized they can access the `Post`, `Comment`, `Edit` or `Delete` functions. These links are located **under the content at bottom right corner**
+ * A logged in user may `like` and `unlike` a post by clicking the `Like` or `Unlike` button found under the content, once clicked the `Like` will change to `Liked`or `Unliked`
+ * Users are unable to `Like` or `Unlike` their own posts.
+
+#In order to run the app site locally, (on your local machine), the user is required to:
 
  * Install `Python 2.7` and **Google's** `Google App Engine`,
- * Run Google App Engine localy, or you can deploy your project to Google App Engine server,
+ * Run Google App Engine localy
  * In the `salt.py` file the SECRET parameter is used to hash cookies, it is advised to set this variable to a more unique and secure string.
 
 ##Installing Python
@@ -102,14 +117,7 @@ The output should look like this: Python 2.7.<number>.
 Note: The App Engine SDK is under active development; please keep this in mind as you explore its capabilities. See the Java | Python | Go | PHP SDK Release Notes for information on the most recent changes to the App Engine SDK. If you discover any issues, feel free to notify us via our Issue Tracker.
 By downloading, you agree to be bound by the Terms that govern use of the App Engine SDK.
 
-
-#Browsing the app
-
-##Using a browser
-
- You can view the site live by browsing to the site on the following address http://blog-myblog.appspot.com/.
- 
- ##Downloading the app
+#Browsing the app on your local machine
  
  If you choose to download the files and run the app on your local machine you will need to do the following
  * Browse `http://blog-myblog.appspot.com/`(or http://localhost:8080 for local deployment)
