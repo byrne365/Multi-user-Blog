@@ -54,21 +54,20 @@ Multi User Blog is a web application which I have created as part of the Udacity
 Using the `Chrome` browser, (which you installed above) browse to the site on the following address http://blog-myblog.appspot.com/.
  * Users should `sign up` in order to post a `new post` or `comment`on an existing post.The `Sign Up` link can be located on the top right corner of the `Navigation Bar`.
  * A returning user can use the `Login` link (top right corner) to log in to their account.
- * Once logged in, the users `User name` and the `Logout` link can be found in the top right hand corner of the `Navigstion Bar`.
+ * Once logged in, the users `User name` and the `Logout` link can be found in the top right hand corner of the `Navigation Bar`.
  * A user can post a new post by clicking the `New Post` button located on the top right of the `Navigation Bar`.
- * A Post can be viewed in detail by clicking on the posts subject
+ * A Post can be viewed in detail by clicking on the posts subject.
  * Once a user has clicked on the subject of the post the comments of that post can be viewed.
- * New comments can be added by clicking the `Add Comment button` located under each post, the user must be logged in in order to leave a comment.
+ * New comments can be added by clicking the `Add Comment button` located under each post, the user must be `logged in`, in order to leave a comment.
  * `Posts` and `Comments` can be modified, if they are created by the logged in user.
- * If the user is authorized they can access the `Post`, `Comment`, `Edit` or `Delete` functions. These links are located **under the content at bottom right corner**
+ * If the user is authorized they can access the `Post`, `Comment`, `Edit` or `Delete` the post. These links are located **under the content at bottom left corner**
  * A logged in user may `like` and `Unlike` a post by clicking the `Like` or `Unlike` button found under the content, once clicked it will change to `Liked`or `Unliked`.
- * Users are unable to `Like` or `Unlike` their own posts.
+ * Users are **unable** to `Like` or `Unlike` their own posts.
 
-#In order to run the app site locally, (on your local machine), the user is required to:
+#In order to run the app locally, (on your local machine), the user is required to:
 
  * Install `Python 2.7` and **Google's** `Google App Engine`,
- * Run Google App Engine localy
- * In the `salt.py` file the SECRET parameter is used to hash cookies, it is advised to set this variable to a more unique and secure string.
+ * Run Google App Engine locally
 
 ##Installing Python
 
@@ -119,7 +118,9 @@ By downloading, you agree to be bound by the Terms that govern use of the App En
 
 #Browsing the app on your local machine
  
- If you choose to download the files and run the app on your local machine you will need to do the following
+ If you choose to download the files and run the app on your local machine you will need to do the following:
+ 
+ * In the `salt.py` file the **SECRET** parameter is used to hash cookies, it is advised to set this variable to a more unique and secure string.
  * Open `Gooogle App Engine` on their local machine.
  * Click on `File` and then `New Application`.
  * In the next window under `Application ID` give your project name as `blog-blogroll` and click create **TAKE NOTE OF THE PORT NUMBER**
