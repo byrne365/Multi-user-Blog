@@ -52,16 +52,16 @@ Multi User Blog is a web application which I have created as part of the Udacity
 #Browsing the app
 
 Using the `Chrome` browser, (which you installed above) browse to the site on the following address http://blog-myblog.appspot.com/.
- * Users should `sign up` in order to send `new posts` and `comments`, `Sign Up` link exists on the top right corner
- * A returning user can use the `Login` link (top right corner) to log in to there account
- * Once logged in the users user name and `Logout` link can be found in the top right hand corner
- * A user can post a new blog post by clicking the `New Post` navigation button after they are logged in
+ * Users should `sign up` in order to post a `new post` or `comment`on an existing post.The `Sign Up` link can be located on the top right corner of the `Navigation Bar`.
+ * A returning user can use the `Login` link (top right corner) to log in to their account.
+ * Once logged in, the users `User name` and the `Logout` link can be found in the top right hand corner of the `Navigstion Bar`.
+ * A user can post a new post by clicking the `New Post` button located on the top right of the `Navigation Bar`.
  * A Post can be viewed in detail by clicking on the posts subject
- * Once a user has clicked on the subject of the post the comments of the posts can be seen
- * New comments can be added by clicking `Add Comment button` located under each post, the user must be logged in in order to leave a comment.
- * Posts and Comments can be modified, if they are created by the logged in user.
+ * Once a user has clicked on the subject of the post the comments of that post can be viewed.
+ * New comments can be added by clicking the `Add Comment button` located under each post, the user must be logged in in order to leave a comment.
+ * `Posts` and `Comments` can be modified, if they are created by the logged in user.
  * If the user is authorized they can access the `Post`, `Comment`, `Edit` or `Delete` functions. These links are located **under the content at bottom right corner**
- * A logged in user may `like` and `unlike` a post by clicking the `Like` or `Unlike` button found under the content, once clicked the `Like` will change to `Liked`or `Unliked`
+ * A logged in user may `like` and `Unlike` a post by clicking the `Like` or `Unlike` button found under the content, once clicked it will change to `Liked`or `Unliked`.
  * Users are unable to `Like` or `Unlike` their own posts.
 
 #In order to run the app site locally, (on your local machine), the user is required to:
@@ -120,27 +120,19 @@ By downloading, you agree to be bound by the Terms that govern use of the App En
 #Browsing the app on your local machine
  
  If you choose to download the files and run the app on your local machine you will need to do the following
- * Browse `http://blog-myblog.appspot.com/`(or http://localhost:8080 for local deployment)
- * Users should sign up in order to send new posts and comments, Sign Up link exists
-on the top right corner
- * Login / Sign Up links are on the top right corner when user not logged in
- * Logout link are on the top right corner when user logged in
- * User can post new blog post clicking the New Post navigation button after logged in
- * Posts can be viewed in detail by clicking their subjects
- * In detail view comments of posts can be seen
- * New comments can be added by clicking Add Comment button located under each post
- * Posts and Comments can be modified if they are created by the logged in user.
-If user is authorized to modify Post or Comment, Edit and Delete links are located under
-content at bottom right corner
- * Users may like and unlike a post by clicking Like and Unlike buttons. It is required
-to logged in, in order to perform like operation. In addition, users should't like or
-unlike their own posts.
- * After the content of a post, at bottom right corner there exists,
- 	* Edit / Delete links if user owns that post
- 	* Like / Unlike links if user doesn't own that post
- * Like link changes to Liked link if user Liked that post before and Unlike link changes
-to Unliked if user Unliked that post before. If user clicks the Liked or Unliked link
-they take their like or unlike back.
- * When there are Liked and Unlike links, user Liked that post before, if user clicks
-Unlike, the Like is taken back and Unlike recorder.
-Same condition applies for the opposite.
+ * Open `Gooogle App Engine` on their local machine.
+ * Click on `File` and then `New Application`.
+ * In the next window under `Application ID` give your project name as `blog-blogroll` and click create **TAKE NOTE OF THE PORT NUMBER**
+ * Open your `Chrome` browser and in the `url` search bar enter `http://localhost:8080`.
+ * Users should `sign up` in order to post a `new post` or `comment`on an existing post.The `Sign Up` link can be located on the top right corner of the `Navigation Bar`.
+ * A returning user can use the `Login` link (top right corner) to log in to their account.
+ * Once logged in, the users `User name` and the `Logout` link can be found in the top right hand corner of the `Navigstion Bar`.
+ * A user can post a new post by clicking the `New Post` button located on the top right of the `Navigation Bar`.
+ * A Post can be viewed in detail by clicking on the posts subject
+ * Once a user has clicked on the subject of the post the comments of that post can be viewed.
+ * New comments can be added by clicking the `Add Comment button` located under each post, the user must be logged in in order to leave a comment.
+ * `Posts` and `Comments` can be modified, if they are created by the logged in user.
+ * If the user is authorized they can access the `Post`, `Comment`, `Edit` or `Delete` functions. These links are located **under the content at bottom right corner**
+ * A logged in user may `like` and `Unlike` a post by clicking the `Like` or `Unlike` button found under the content, once clicked it will change to `Liked`or `Unliked`.
+ * Users are unable to `Like` or `Unlike` their own posts.
+ 
