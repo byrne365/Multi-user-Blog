@@ -13,15 +13,47 @@ Multi User Blog is a web application which I have created as part of the Udacity
 * Edit and delete their own comments,
 * Like and unlike blog posts of other users.
 
-## In order to run the web site, the user is required to:
+#Installation:
+
+##In order to run the app live, from your browser
+
+* Install `Chrome`
+
+#Installing `Chrome` on Windows:
+
+1. Browse over to [Chrome] (https://www.google.com/chrome/browser/desktop/index.html)
+2. Download the installer file.
+2. If prompted, click Run or Save.
+3. If you chose Save, double-click the installer file to start the installation process. We'll automatically import your homepage settings and browser history for you.
+4. Start Chrome:
+   * Windows 7: A Chrome window opens once everything is set up.
+   * Windows 8 and 8.1: A welcome dialog appears, click Next to select your default browser.
+   * Windows 10: A Chrome window opens once everything is set up. You can then make Chrome your default browser.
+
+#Installing `Chrome` on Mac osx
+
+1. Browse over to [Chrome] (https://www.google.com/chrome/browser/desktop/index.html)
+2. Download the disk image.
+3. Open the file called "Google Chrome.dmg." 
+4. In the window that opens, find the Chrome icon Chrome app. Drag it to the Applications folder. If you don't have administrative rights, you'll be asked to authenticate. If you're not able to authenticate, drag the icon to a location on your computer where you do have rights, such as your desktop. 
+5. Open Chrome. We'll automatically import your homepage settings and browser history for you.
+6. Open Finder.
+7. In the window's sidebar, to the right of Google Chrome, click Eject .
+
+# Installing `Chrome` on Linux
+
+1. Browse over to [Chrome] (https://www.google.com/chrome/browser/desktop/index.html)
+2. Use the same software that installs programs on your computer to install Chrome. Make sure you have administrative access first.
+3. Download the installer file.
+4. Click OK to open the package.
+5. Click Install Package.
+6. Google Chrome will add its program information to your software manager so that it can be kept up-to-date.
+
+## In order to run the app site locally, (on your local machine), the user is required to:
 
  * Install `Python 2.7` and **Google's** `Google App Engine`,
  * Run Google App Engine localy, or you can deploy your project to Google App Engine server,
  * In the `salt.py` file the SECRET parameter is used to hash cookies, it is advised to set this variable to a more unique and secure string.
-
-#Installation
-
-Installation is simple please follow the below instructions:
 
 ##Installing Python
 
@@ -70,9 +102,16 @@ The output should look like this: Python 2.7.<number>.
 Note: The App Engine SDK is under active development; please keep this in mind as you explore its capabilities. See the Java | Python | Go | PHP SDK Release Notes for information on the most recent changes to the App Engine SDK. If you discover any issues, feel free to notify us via our Issue Tracker.
 By downloading, you agree to be bound by the Terms that govern use of the App Engine SDK.
 
-#The Blog App
 
-## Browsing the web site:
+#Browsing the app
+
+##Using a browser
+
+ You can view the site live by browsing to the site on the following address http://blog-myblog.appspot.com/.
+ 
+ ##Downloading the app
+ 
+ If you choose to download the files and run the app on your local machine you will need to do the following
  * Browse `http://blog-myblog.appspot.com/`(or http://localhost:8080 for local deployment)
  * Users should sign up in order to send new posts and comments, Sign Up link exists
 on the top right corner
