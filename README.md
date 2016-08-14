@@ -23,9 +23,9 @@ Multi User Blog is a web application which I have created as part of the Udacity
 
 1. Browse over to [Chrome] (https://www.google.com/chrome/browser/desktop/index.html)
 2. Download the installer file.
-2. If prompted, click Run or Save.
-3. If you chose Save, double-click the installer file to start the installation process. We'll automatically import your homepage settings and browser history for you.
-4. Start Chrome:
+3. If prompted, click Run or Save.
+4. If you chose Save, double-click the installer file to start the installation process. We'll automatically import your homepage settings and browser history for you.
+5. Start Chrome:
    * Windows 7: A Chrome window opens once everything is set up.
    * Windows 8 and 8.1: A welcome dialog appears, click Next to select your default browser.
    * Windows 10: A Chrome window opens once everything is set up. You can then make Chrome your default browser.
