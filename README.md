@@ -4,20 +4,25 @@
 
 Multi User Blog is a web application which I have created as part of the Udacity, Fullstack Web Developer Nano Degree program. I have called my blog `Blogroll`, the blog allows users to do the following:
 
-*Create a user account 
-* Create a blog post
-* Edit and delete their own blog posts
-* Browse other user blog posts
-* Comment on blog posts
-* Edit and delete their own comments
-* Like / unlike blog posts of other users
+* Create a user account,
+* Sign in if user is an existing user,
+* Create a blog post,
+* Edit and delete their own blog posts,
+* Browse other user blog posts,
+* Comment on blog posts,
+* Edit and delete their own comments,
+* Like and unlike blog posts of other users.
 
-## In order to run the web site, it is required to
+## In order to run the web site, the user is required to:
 
- * Have Python 2 and Google App Engine installed
- * Run Google App Engine localy, or deploy project to Google App Engine server
- * In config.py file SECRET parameter is used to hash cookies, it is required to set
- this variable to a more secure string
+ * Install `Python 2.7` and **Google's** `Google App Engine`,
+ * Run Google App Engine localy, or you can deploy your project to Google App Engine server,
+ * In the `salt.py` file the SECRET parameter is used to hash cookies, it is advised to set this variable to a more unique and secure string.
+
+#Installation
+
+Installation is simple please follow the below instructions:
+
 
 ## Browsing the web site:
  * Browse http://syf-udacity-cs253.appspot.com/
