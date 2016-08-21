@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<!--logo-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <img class="img-responsive" src="/static/images/mainlogo.png"
+             alt="logo">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <hr>
+    </div>
+</div>
+{% if not posts %}
+<div class="panel panel-default">
+	<div class="panel-body">
+		Nothing Here! Why dont you post something!
+	</div>
+</div>
+{% else %}
+{% for post in posts %}
+{% include "postview.html" %}
+{% endfor %}
+{% endif %}
+{% endblock %}

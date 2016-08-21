@@ -1,0 +1,183 @@
+Dan's Tools
+cleancss.com/css-beautify
+CSS Beautifier
+Development
+Encode/Decoders
+Formatters
+Images
+Internet
+Minifiers
+SEO
+Related: CSS MinifyHTML FormatterJavascript Formatter
+
+
+
+ Long Tail Keyword Tool
+Generate a suggested list of keywords for your SEO and Ad campaigns for free!
+
+23
+article,
+24
+aside,
+25
+details,
+26
+figcaption,
+27
+figure,
+28
+footer,
+29
+header,
+30
+hgroup,
+31
+main,
+32
+menu,
+33
+nav,
+34
+section,
+35
+summary {
+36
+    display: block;
+37
+}
+38
+audio,
+39
+canvas,
+40
+progress,
+41
+video {
+42
+    display: inline-block;
+43
+    vertical-align: baseline;
+44
+}
+45
+audio:not([controls]) {
+46
+    display: none;
+47
+    height: 0;
+48
+}
+49
+[hidden],
+50
+template {
+51
+    display: none;
+52
+}
+53
+a {
+54
+    background-color: transparent;
+55
+}
+56
+a:active,
+57
+a:hover {
+58
+    outline: 0;
+59
+}
+60
+abbr[title] {
+61
+    border-bottom: 1px dotted;
+62
+}
+63
+b,
+64
+strong {
+65
+    font-weight: bold;
+66
+}
+67
+dfn {
+68
+    font-style: italic;
+69
+}
+70
+h1 {
+71
+    font-size: 2em;
+72
+    margin: 0.67em 0;
+73
+}
+74
+mark {
+75
+    background: #ff0;
+76
+    color: #000;
+77
+}
+78
+small {
+79
+    font-size: 80%;
+80
+}
+81
+sub,
+82
+sup {
+83
+    font-size: 75%;
+84
+    line-height: 0;
+85
+    position: relative;
+86
+    vertical-align: baseline;
+87
+}
+88
+sup {
+89
+    top: -0.5em;
+90
+}
+
+Format Code
+
+
+
+
+HTML <style>, <script> formatting: End script and style with newline?  Detect packers and obfuscators?  Keep array indentation?  Break lines on chained methods?  Space before conditional: "if(x)" / "if (x)"  Unescape printable chars encoded as \xNN or \uNNNN?  Use JSLint-happy formatting tweaks?
+
+
+CSS Beautifier
+Enter your messy, minified, or obfuscated CSS Style Sheets into the field above to have it cleaned up and made pretty. The editor above also contains helpful line numbers and syntax highlighting. There are many option to tailor the beautifier to your personal formatting tastes.
+
+When do you use CSS Beautifier
+Often when writing CSS Style Sheets your indentation, spacing, and other formatting can become a bit disorganized. It is also common for multiple developers to work on a single project who have different formatting techniques.  This tool is helpful for making the formatting of a file consistent. It is also common for CSS Style Sheets to be minified or obfuscated. You can use this tool to make that code look pretty and readable so it is easier to edit.
+
+Examples
+The minified CSS Style Sheets below:
+
+body{font-family:Georgia, Times, serif;color:purple;background-color:#d8da3d}h1{font-family:Helvetica, Arial}
+Becomes this beautified :
+
+body {
+    font-family: Georgia, Times, serif;
+    color: purple;
+    background-color: #d8da3d
+}
+h1 {
+    font-family: Helvetica, Arial
+}
+© Dan's Tools | Contact | About | For more dev tools, check out danstools.com

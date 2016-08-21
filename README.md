@@ -34,8 +34,8 @@ Multi User Blog is a web application which I have created as part of the Udacity
 
 1. Browse over to [Chrome] (https://www.google.com/chrome/browser/desktop/index.html)
 2. Download the disk image.
-3. Open the file called "Google Chrome.dmg." 
-4. In the window that opens, find the Chrome icon Chrome app. Drag it to the Applications folder. If you don't have administrative rights, you'll be asked to authenticate. If you're not able to authenticate, drag the icon to a location on your computer where you do have rights, such as your desktop. 
+3. Open the file called "Google Chrome.dmg."
+4. In the window that opens, find the Chrome icon Chrome app. Drag it to the Applications folder. If you don't have administrative rights, you'll be asked to authenticate. If you're not able to authenticate, drag the icon to a location on your computer where you do have rights, such as your desktop.
 5. Open Chrome. We'll automatically import your homepage settings and browser history for you.
 6. Open Finder.
 7. In the window's sidebar, to the right of Google Chrome, click Eject .
@@ -51,7 +51,7 @@ Multi User Blog is a web application which I have created as part of the Udacity
 
 #Browsing the app
 
-Using the `Chrome` browser, (which you installed above) browse to the site on the following address http://blog-myblog.appspot.com/.
+Using the `Chrome` browser, (which you installed above) browse to the site on the following address http://blogroll-1.appspot.com/.
  * Users should `sign up` in order to post a `new post` or `comment`on an existing post.The `Sign Up` link can be located on the top right corner of the `Navigation Bar`.
  * A returning user can use the `Login` link (top right corner) to log in to their account.
  * Once logged in, the users `User name` and the `Logout` link can be found in the top right hand corner of the `Navigation Bar`.
@@ -108,7 +108,7 @@ You will need Python 2.7 to use the App Engine SDK, because the Development Serv
 2. scroll down to `Google App Engine SDK for Python` select the latest download package file for `Linux/Mac OS X/Other Platforms`, in this case `google_appengine_1.9.40.zip`.
 3. Unzip the App Engine SDK file you downloaded `(google_appengine_1.9.40.zip)`, for example:
 unzip `google_appengine_1.9.40.zip`.There is no App Engine installation script that you need to run after unzipping the files.
-4. Add the google_appengine directory to your PATH: `export PATH=$PATH:/path/to/google_appengine/` 
+4. Add the google_appengine directory to your PATH: `export PATH=$PATH:/path/to/google_appengine/`
 5. Make sure Python 2.7 is installed on your machine using the following command:
 /usr/bin/env python -V
 The output should look like this: Python 2.7.<number>.
@@ -117,9 +117,9 @@ Note: The App Engine SDK is under active development; please keep this in mind a
 By downloading, you agree to be bound by the Terms that govern use of the App Engine SDK.
 
 #Browsing the app on your local machine
- 
+
  If you choose to download the files and run the app on your local machine you will need to do the following:
- 
+
  * In the `salt.py` file the **SECRET** parameter is used to hash cookies, it is advised to set this variable to a more unique and secure string.
  * Open `Gooogle App Engine` on their local machine.
  * Click on `File` and then `New Application`.
@@ -136,4 +136,5 @@ By downloading, you agree to be bound by the Terms that govern use of the App En
  * If the user is authorized they can access the `Post`, `Comment`, `Edit` or `Delete` functions. These links are located **under the content at bottom right corner**
  * A logged in user may `like` and `Unlike` a post by clicking the `Like` or `Unlike` button found under the content, once clicked it will change to `Liked`or `Unliked`.
  * Users are unable to `Like` or `Unlike` their own posts.
- 
+
+ Thank you for reading the above file. Chrome and Google App Engine install readme, is the work of Google and is copied in part from the chrome and App Engine download website.Python install readme, is the work of Python and is copied in part from the Python download website.

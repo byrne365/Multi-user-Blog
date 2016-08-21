@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<!--logo-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <img class="img-responsive" src="/static/images/mainlogo.png"
+             alt="logo">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <hr>
+    </div>
+</div>
+<h1>
+	Signup
+</h1>
+<form method="post" role="form">
+	<div class="btn-block">
+		<label for="username">Username</label>
+		<input class="form-control" type="text" value="{{username}}" name="username" id="username">
+		{% if not uvalid %}
+		<label class="text-danger">Sorry! that's not a valid username</label>
+		{% elif not uunique %}
+		<label class="text-danger">User name already exists</label>
+		{% endif %}
+	</div>
+	<div class="btn-block">
+		<label for="pwd">Password</label>
+		<input class="form-control" type="password" name="password" id="pwd">
+		{% if not pvalid %}
+		<label class="text-danger">Sorry! that's not a valid password</label>
+		{% endif %}
+	</div>
+	<div class="btn-block">
+		<label for="verify">Verify Password</label>
+		<input class="form-control" type="password" name="verify" id="verify">
+		{% if not vvalid %}
+		<label class="text-danger">The passwords you entered didn't match</label>
+		{% endif %}
+	</div>
+	<div class="btn-block">
+		<label for="email">Email(optional)</label>
+		<input class="form-control" type="text" value="{{email}}" name="email" id="email">
+		{% if not evalid %}
+		<label class="text-danger">Sorry! that's not a valid email</label>
+		{% endif %}
+	</div>
+	<div class="btn-block">
+		<input class="btn btn-default" type="submit">
+	</div>
+</form>
+{% endblock %}
